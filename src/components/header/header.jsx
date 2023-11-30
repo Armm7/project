@@ -64,7 +64,7 @@ function Header() {
 
             <div className="headersum">
                     
-                <img className="image" />
+                <img className="image1" />
                 <h1 className="summer">
                     Summer collection.
                 </h1>
@@ -75,6 +75,8 @@ function Header() {
                     <p className="shop">Shop it now</p>
                     <img className="rside" src={im9}/>
                 </button>
+                <div className="jk">
+                </div>
             </div>
         </div>
     )

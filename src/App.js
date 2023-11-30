@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Featured from './components/featuredproducts/featured';
+import Featured from './components/featured/featured';
 import Header from './components/header/header';
+import Imgg1 from "./components/images/firstcart.png"
 
 function App() {
   return (
     <div className="App">
        <Header/>
-       <Featured/> 
+       <Featured img={Imgg1} /> 
 
     </div>
   );
